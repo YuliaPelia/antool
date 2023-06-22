@@ -1,0 +1,43 @@
+@import url(./blocks/header.css);
+@import url(./blocks/preview.css);
+
+body {
+    /* font-family: 'Lora',
+        serif; */
+    font-family: 'Poppins',
+        sans-serif;
+    /* font-family: 'Roboto',
+        sans-serif; */
+    background: #1E252B;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.descr {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.btn {
+    border: none;
+    border-radius: 8px;
+    background: #FF6E30;
+    color: #FDF5FF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
