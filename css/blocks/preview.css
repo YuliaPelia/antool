@@ -3,10 +3,9 @@
     padding-top: 70px;
 }
 
-.preview h1 {
-    color: rgba(255, 255, 255, 0.90);
+.preview .preview_title {
     font-size: 50px;
-    font-weight: 500;
+
     line-height: 140%;
 }
 
@@ -15,6 +14,7 @@
 }
 
 .preview form {
+    margin-top: 60px;
     border-radius: 15px;
     background: #283036;
     padding: 8px 10px 8px 20px;
